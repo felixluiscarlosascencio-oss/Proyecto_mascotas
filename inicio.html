@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mascotas</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="mascotas.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -31,7 +32,7 @@
           <a class="nav-link" href="#galeria">Momentos especiales</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contacto">Contactanos</a>
+          <a class="nav-link" href="#contacto">Contáctanos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#informacion">Nosotros</a>
@@ -132,27 +133,53 @@
 </section>
 <section id="galeria" class="container mt-5">
   <h2 class="text-center mb-4">Momentos especiales</h2>
-  <div class="row">
+  <div class="row text-center">
 
     <div class="col-md-4">
-      <img src="">
+      <img src="imagenes/perro_bañado.jpg" class="img-fluid rounded mb-3">
     </div>
 
     <div class="col-md-4">
-      <img src="" class="img-fluid rounded mb-3">
+      <img src="imagenes/perro_cuidado.jpg" class="img-fluid rounded mb-3">
     </div>
 
     <div class="col-md-4">
-      <img src="" class="img-fluid rounded mb-3">
+      <img src="imagenes/gato_perro.jpg" class="img-fluid rounded mb-3">
+    </div>
+
+    <div class="col-md-4">
+      <img src="imagenes/copito.jpeg" class="img-fluid rounded mb-3">
+    </div>
+
+    <div class="col-md-4">
+      <img src="imagenes/copito_pose.jpeg" class="img-fluid rounded mb-3">
     </div>
 
   </div>
 </section>
-    <section id="contacto" class="container mt-5">
-    <h2>Contacto</h2>
+<section id="contacto" class="container mt-5">
+  <h2 class="text-center mb-4">Contáctanos</h2>
+  <form>
+    <input type="text" placeholder="Nombre" class="form-control mb-2">
+    <input type="email" placeholder="Correo" class="form-control mb-2">
+    <textarea placeholder="Mensaje" class="form-control mb-2"></textarea>
+    <button class="btn btn-primary">Enviar</button>
+  </form>
 </section>
-    <section id="informacion" class="container mt-5">
-    <h2>Informacion</h2>
+<section id="informacion" class="container mt-5">
+  <h2 class="text-center mb-4">Información</h2>
+<iframe class="w-100" height="400"
+  src="https://www.youtube.com/embed/z6qn2YzE54M"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
 </section>
+<footer class="bg-dark text-white text-center p-3 mt-5">
+  <p>© 2026 Mascotas | Todos los derechos reservados</p>
+  <a href="#" class="text-white">Facebook</a> |
+  <a href="#" class="text-white">Instagram</a> |
+  <a href="#" class="text-white">WhatsApp</a>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
